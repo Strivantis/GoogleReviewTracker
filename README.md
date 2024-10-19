@@ -46,12 +46,25 @@
    sender_email = "你的 Gmail"
    receiver_email = "接收通知的 Email"
    password = "你的 Gmail 應用程式密碼"
+
+   # 呼叫 main，設定檢查間隔和每輪等待時間
+    main(
+        ids_with_names, 
+        sender_email, 
+        receiver_email, 
+        password, 
+        mode="sum_and_track", 
+        # "sum_and_track" 直接先蒐集目標ID的最近評論並進行未來追蹤; 
+        # "track_new" 不蒐集過去評論，從程式碼運行後才開始追蹤並回報
+        interval=30,  # 每個 ID 間隔 30 秒
+        cycle_wait=300  # 每輪完成後等待 300 秒，以防 Google 擋爬蟲
+    )
    ```
 
 2. **執行程式**：
    進入專案目錄並運行：
    ```bash
-   python NYCU_GoogleReviewsTracker.py
+   python GoogleReviewsTracker.py
    ```
 
 ---
