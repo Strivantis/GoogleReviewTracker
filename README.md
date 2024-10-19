@@ -33,7 +33,7 @@
 ---
 
 ## 🛠️ 使用方法
-1. **編輯 `NYCU_GoogleReviewsTracker.py`**：
+1. **編輯 `GoogleReviewsTracker.py`**：
    在 `__main__` 區段中設定你的追蹤資訊：
 
    ```python
