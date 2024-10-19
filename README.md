@@ -1,4 +1,4 @@
-# Google Reviews Tracker 🗺️  
+# Google Review Tracker 🗺️  
 
 ## 📋 專案簡介
 此專案設計用來自動追蹤並收集多個 **Google Maps ID** 的評論，並定期將新評論透過 **Email 通知**。適用於需要監控客戶回饋或 Google Maps 評論的商家、服務供應商或研究者。
