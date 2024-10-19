@@ -33,7 +33,7 @@
 ---
 
 ## 🛠️ 使用方法
-1. **編輯 `GoogleReviewsTracker.py`**：
+1. **編輯 `GoogleReviewTracker.py`**：
    在 `__main__` 區段中設定你的追蹤資訊：
 
    ```python
@@ -64,7 +64,7 @@
 2. **執行程式**：
    進入專案目錄並運行：
    ```bash
-   python GoogleReviewsTracker.py
+   python GoogleReviewTracker.py
    ```
 
 ---
